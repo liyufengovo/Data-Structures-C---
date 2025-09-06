@@ -89,7 +89,7 @@ int main()
     ListInsert(L, 1, 4);
     ListInsert(L, 8, 7); // 超出length，并没有插入成功
     ListPrint(L);
-    int delValue;
+    int delValue; // 要删除的元素
     ListDelete(L, 1, delValue);
     ListPrint(L);
     return 0;
